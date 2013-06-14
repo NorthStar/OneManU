@@ -44,27 +44,35 @@ html,body{
 	width:100px!important;
 }
 .loginPanel{
-position:fixed;
-top:350px;
-left:10px;
-width:150px;
-margin-top:0px;
-margin-left:0px;
-z-index:1;
+	position:fixed;
+	top:350px;
+	left:10px;
+	width:150px;
+	margin-top:0px;
+	margin-left:0px;
+	z-index:1;
+}
+
+.videoFrame{
+	position:relative;
+	top:10%;
+	left:20%;
+	height:80%;
+	width:70%;
 }
 
 .loginButton{
-width: 100px;
+	width: 100px;
 }
 .onemanlogo{
-position:fixed;
-top:10px;
-left:10px;
-width:100px;
-margin-top:0px;
-margin-left:0px;
-z-index:1;
-opacity: 0.4;
+	position:fixed;
+	top:10px;
+	left:10px;
+	width:100px;
+	margin-top:0px;
+	margin-left:0px;
+	z-index:1;
+	opacity: 0.4;
 }
 .slide{
 	background-attachment: fixed;
