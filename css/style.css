@@ -22,34 +22,35 @@ html,body{
 .navigation{
 	position:fixed;
 	z-index:1;
-	top:150px;
+	top:200px;
 }
 .navigation li{
-	color:white;
+	color:#0066CC;
 	display:block;
 	padding: 0 10px;
 	line-height:30px;
 	margin-bottom:2px;
 	font-weight:bold;
-	-webkit-transition: all .2s ease-in-out;
-	border-bottom:1px solid black;
+	-webkit-transition: all .2s ease－in－out;
+	/*border-bottom:1px solid black;
 	text-align:left;
-	width:100px;
+	width:170px;*/
 }
 .navigation li:hover,.active{
 	font-size:25px;
 	cursor:pointer;
-	width:200px!important;
+	-webkit-transition: all .2s ease－in－out;
+	width:100px!important;
 }
 .onemanlogo{
 position:fixed;
 top:50px;
-left:15%;
+left:35%;
 width:100px;
 margin-top:-41px;
-margin-left:-223px;
+margin-left:-243px;
 z-index:1;
-opacity: 0.9;
+opacity: 0.4;
 }
 .slide{
 	background-attachment: fixed;
@@ -78,8 +79,8 @@ opacity: 0.9;
 	height:50px;
 	position:absolute;
 	bottom:0px;
-	left:50%;
-	background-color:#333333;
+	left:90%;
+	background-color:#222222;
 	background-image:url(../images/arrow.png);
 }
 .button:hover{
@@ -91,14 +92,14 @@ opacity: 0.9;
  SLIDE 1: Home 
 *******************************/
 #home{
-	background-color:#99CCFF;
+	background-color:#E0F0FF;
 	
 }
 /******************************
  SLIDE 2: Departments
 *******************************/
 #departments{
-	background-color:#005c99;
+	background-color:#8FABFF;
 	
 }
 #departments img:first-child{
@@ -145,7 +146,7 @@ left: -150px;
  SLIDE 3 : One Man X
 *******************************/
 #onemanx{
-	background-color:#b6c10b;
+	background-color:#D9CCFF;
 }
 #onemanx img:first-child{
 	position:absolute;
@@ -182,7 +183,7 @@ left: 300px;
 *******************************/
 
 #aboutus{
-	background-image:url(../images/Slide4/desktop4.jpg);
+	background-image:url(../images/Slide4/desktopabout.png);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
